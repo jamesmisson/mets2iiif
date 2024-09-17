@@ -100,7 +100,7 @@ def get_ranges(root):
 
     return range_dict
 
-# define structure class that is the same as IIIF spec
+# TODO:define structure class that is the same as IIIF spec
 
 class Structure:
     def __init__(self, element=None, id: str = None, type: str = None, label: str = None, items: list = None):
