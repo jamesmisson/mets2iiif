@@ -33,10 +33,10 @@ structMaps_xpath = '/mets:mets/mets:structMap[@TYPE="LOGICAL"]'
 class CanvasItem:
     def __init__(self, item_id):
         self.id = item_id
-        self.label = "Canvas"
+        self.type = "Canvas"
 
     def __repr__(self):
-        return f'{{"id": "{self.id}", "label": "{self.label}"}}'
+        return f'{{"id": "{self.id}", "type": "{self.type}"}}'
 
     
 class RangeItem:
